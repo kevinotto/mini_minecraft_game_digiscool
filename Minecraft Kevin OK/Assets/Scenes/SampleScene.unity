@@ -132,6 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 537915088}
+  - component: {fileID: 537915089}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -154,6 +155,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &537915089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537915087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e612cea5a29987d4e99337d1881ba0ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CameraSpeed: {x: 180, y: 180}
+  MoveSpeed: 10
+  BlockPrefab: {fileID: 2798738731870624544, guid: 55c687e4c71519d43abfab40d3b9a595, type: 3}
+  Outline: {fileID: 5860642448917393153}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -486,3 +503,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f61cc4c51e4c5148956a835d8c8992c, type: 3}
+--- !u!1 &5860642448917393153 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5860642449163666788, guid: 1f61cc4c51e4c5148956a835d8c8992c, type: 3}
+  m_PrefabInstance: {fileID: 5860642448917393152}
+  m_PrefabAsset: {fileID: 0}
